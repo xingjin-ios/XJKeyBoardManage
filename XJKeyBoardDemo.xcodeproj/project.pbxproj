@@ -15,6 +15,10 @@
 		E244979A1E8EAB0300F61CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24497981E8EAB0300F61CA7 /* LaunchScreen.storyboard */; };
 		E24497A51E8EAB0300F61CA7 /* XJKeyBoardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E24497A41E8EAB0300F61CA7 /* XJKeyBoardDemoTests.m */; };
 		E24497B01E8EAB0300F61CA7 /* XJKeyBoardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E24497AF1E8EAB0300F61CA7 /* XJKeyBoardDemoUITests.m */; };
+		E24497BF1E8EAB4C00F61CA7 /* WELKeyBoardManage.m in Sources */ = {isa = PBXBuildFile; fileRef = E24497BE1E8EAB4C00F61CA7 /* WELKeyBoardManage.m */; };
+		E2D4FB761E8F7A7D00B9324E /* XJKeyBoardManage.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D4FB751E8F7A7D00B9324E /* XJKeyBoardManage.m */; };
+		E2D4FB7A1E8FA0AD00B9324E /* KeyBoardAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D4FB791E8FA0AD00B9324E /* KeyBoardAnimation.m */; };
+		E2D4FB7D1E8FA96000B9324E /* XJKeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D4FB7C1E8FA96000B9324E /* XJKeyBoardManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		E24497AB1E8EAB0300F61CA7 /* XJKeyBoardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJKeyBoardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24497AF1E8EAB0300F61CA7 /* XJKeyBoardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJKeyBoardDemoUITests.m; sourceTree = "<group>"; };
 		E24497B11E8EAB0300F61CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24497BD1E8EAB4C00F61CA7 /* WELKeyBoardManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WELKeyBoardManage.h; sourceTree = "<group>"; };
+		E24497BE1E8EAB4C00F61CA7 /* WELKeyBoardManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WELKeyBoardManage.m; sourceTree = "<group>"; };
+		E2D4FB741E8F7A7D00B9324E /* XJKeyBoardManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJKeyBoardManage.h; sourceTree = "<group>"; };
+		E2D4FB751E8F7A7D00B9324E /* XJKeyBoardManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJKeyBoardManage.m; sourceTree = "<group>"; };
+		E2D4FB781E8FA0AD00B9324E /* KeyBoardAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardAnimation.h; sourceTree = "<group>"; };
+		E2D4FB791E8FA0AD00B9324E /* KeyBoardAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardAnimation.m; sourceTree = "<group>"; };
+		E2D4FB7B1E8FA96000B9324E /* XJKeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJKeyBoardManager.h; sourceTree = "<group>"; };
+		E2D4FB7C1E8FA96000B9324E /* XJKeyBoardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJKeyBoardManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,13 @@
 		E24497891E8EAB0300F61CA7 /* XJKeyBoardDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E2D4FB771E8FA0AD00B9324E /* keyBoardAnimation */,
+				E24497BD1E8EAB4C00F61CA7 /* WELKeyBoardManage.h */,
+				E24497BE1E8EAB4C00F61CA7 /* WELKeyBoardManage.m */,
+				E2D4FB741E8F7A7D00B9324E /* XJKeyBoardManage.h */,
+				E2D4FB751E8F7A7D00B9324E /* XJKeyBoardManage.m */,
+				E2D4FB7B1E8FA96000B9324E /* XJKeyBoardManager.h */,
+				E2D4FB7C1E8FA96000B9324E /* XJKeyBoardManager.m */,
 				E244978D1E8EAB0300F61CA7 /* AppDelegate.h */,
 				E244978E1E8EAB0300F61CA7 /* AppDelegate.m */,
 				E24497901E8EAB0300F61CA7 /* ViewController.h */,
@@ -138,6 +157,15 @@
 				E24497B11E8EAB0300F61CA7 /* Info.plist */,
 			);
 			path = XJKeyBoardDemoUITests;
+			sourceTree = "<group>";
+		};
+		E2D4FB771E8FA0AD00B9324E /* keyBoardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E2D4FB781E8FA0AD00B9324E /* KeyBoardAnimation.h */,
+				E2D4FB791E8FA0AD00B9324E /* KeyBoardAnimation.m */,
+			);
+			path = keyBoardAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D4FB761E8F7A7D00B9324E /* XJKeyBoardManage.m in Sources */,
+				E24497BF1E8EAB4C00F61CA7 /* WELKeyBoardManage.m in Sources */,
 				E24497921E8EAB0300F61CA7 /* ViewController.m in Sources */,
 				E244978F1E8EAB0300F61CA7 /* AppDelegate.m in Sources */,
 				E244978C1E8EAB0300F61CA7 /* main.m in Sources */,
+				E2D4FB7D1E8FA96000B9324E /* XJKeyBoardManager.m in Sources */,
+				E2D4FB7A1E8FA0AD00B9324E /* KeyBoardAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +539,7 @@
 				E24497B61E8EAB0400F61CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E24497B71E8EAB0400F61CA7 /* Build configuration list for PBXNativeTarget "XJKeyBoardDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +548,7 @@
 				E24497B91E8EAB0400F61CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E24497BA1E8EAB0400F61CA7 /* Build configuration list for PBXNativeTarget "XJKeyBoardDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +557,7 @@
 				E24497BC1E8EAB0400F61CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
